@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.links a {
+  display: block;
+  margin: 15px;
+  padding: 12px;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.links a:hover {
+  background-color: #ddd;
+}
+
+.qrcode img {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
